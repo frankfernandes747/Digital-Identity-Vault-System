@@ -131,7 +131,7 @@ create policy "Admins can update document status" on documents for update using 
 create policy "Shared links are viewable by token" on shared_links for select using (share_token = share_token);
 ```
 
-**Sample Data (Optional):**
+**Sample Data:**
 ```sql
 -- Insert some sample categories
 insert into categories (name) values 
